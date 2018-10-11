@@ -17,12 +17,12 @@ function getImage(n){
 }
 
 function x(n){
-  if(n>3){
-    n = n%3
+  if(n>4){
+    n = n%4
     if (n===0){
-      n =3
+      n =4
     }
-  } // n = 1 2 3
+  } 
   return n
 }
 
